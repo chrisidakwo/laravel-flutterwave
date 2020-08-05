@@ -1,5 +1,5 @@
 {
-    "name": "chrisidakwo/flutterwave",
+    "name": "chrisidakwo/laravel-flutterwave",
     "description": "Laravel wrapper for the flutterwave-php library",
     "keywords": ["flutterwave", "laravel", "php", "rave", "ravepay", "flutterwave-php", "payment-gateway", "payment-integration"],
     "type": "library",
