@@ -1,0 +1,52 @@
+{
+    "name": "chrisidakwo/flutterwave",
+    "description": "Laravel wrapper for the flutterwave-php library",
+    "keywords": ["flutterwave", "laravel", "php", "rave", "ravepay", "flutterwave-php", "payment-gateway", "payment-integration"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Idakwo",
+            "email": "chris.idakwo@gmail.com",
+            "homepage": "https://github.com/chrisidakwo"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "chrisidakwo/flutterwave-php": "^0.1.0",
+        "illuminate/config": "~5.8.0|^6.0|^7.0",
+        "illuminate/support": "~5.8.0|^6.0|^7.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "~3.8.0|^4.0|^5.0",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChrisIdakwo\\Flutterwave\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ChrisIdakwo\\Flutterwave\\Laravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/php-cs-fixer fix",
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChrisIdakwo\\Flutterwave\\RaveServiceProvider"
+            ],
+            "aliases": {
+                "Rave": "ChrisIdakwo\\Flutterwave\\Facades\\RaveFacade"
+            }
+        }
+    }
+}
