@@ -42,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ChrisIdakwo\\Flutterwave\\RaveServiceProvider"
+                "ChrisIdakwo\\Flutterwave\\Laravel\\RaveServiceProvider"
             ],
             "aliases": {
-                "Rave": "ChrisIdakwo\\Flutterwave\\Facades\\RaveFacade"
+                "Rave": "ChrisIdakwo\\Flutterwave\\Laravel\\Facades\\RaveFacade"
             }
         }
     }
