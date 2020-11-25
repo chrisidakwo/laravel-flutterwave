@@ -13,9 +13,9 @@
     ],
     "require": {
         "php": "^7.4",
-        "chrisidakwo/flutterwave-php": "^0.1.0",
-        "illuminate/config": "~5.8.0|^6.0|^7.0",
-        "illuminate/support": "~5.8.0|^6.0|^7.0"
+        "chrisidakwo/flutterwave-php": "^0.1.1",
+        "illuminate/config": "~5.8.0|^6.0|^7.0|^8.0",
+        "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
