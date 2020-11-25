@@ -10,7 +10,7 @@ use ChrisIdakwo\Flutterwave\Transaction\Transaction;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Class Rave
+ * Class Rave.
  *
  * @method static array standardPayment(array $data)
  * @method static Transaction verifyTransaction(string $transactionId)
